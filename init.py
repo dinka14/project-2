@@ -17,7 +17,7 @@ class Person:
 user1 = Person('Ivan', 'Petrov', 18)
 user2 = Person('Sergey', 'Lapshin', 12)
 user3 = Person('Marat', 'Odoev', 3)
-
+print(user1)
 user_list = [user2, user3, user1]
 user_quality = []
 for i in range(len(user_list)):

@@ -19,7 +19,7 @@ persons = []
 persons.append(Person("Иван", "Иванов", 12))
 persons.append(Person("Петр", "Петров", 5))
 persons.append(Person("Сидр", "Сидоров", 3))
-print(persons)
+print(byQual_key)
 
 p = sorted(persons, key=byQual_key, reverse=True)
 
