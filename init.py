@@ -31,6 +31,7 @@ for i in range(len(user_list)):
 '''
 
 p = sorted(user_list, key=attrgetter('quality'))
+# p = sorted(user_list, key=lambda a: a.quality)
 
 p[0].__del__()
 input()

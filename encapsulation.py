@@ -14,7 +14,7 @@ class Enc:
     def get_value(self):
         try:
             return self.__field1
-        except:
+        except ValueError:
             print("No name")
 
 
