@@ -13,8 +13,8 @@ def count_vowels(string):
             else:
                 dict_with_vowels.update({str(j): each_vowel})
         vowel_amount += each_vowel
-    print('Vowel {0}'.format(dict_with_vowels))
-    print('Amount of vowels is {0}'.format(vowel_amount))
+    print('Vowel {}'.format(dict_with_vowels))
+    print('Amount of vowels is {}'.format(vowel_amount))
 
 
 count_vowels('AiIeEjeYyYyooooooooo  ')
